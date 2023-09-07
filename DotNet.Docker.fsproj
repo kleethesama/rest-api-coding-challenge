@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Motorola_coding_challenge</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="BST.fs" />
+    <Compile Include="Tests.fs" />
+    <Compile Include="Controllers/InsertNodeIntoTreeController.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+POST http://localhost:8080/insert
+Content-Type: application/json
+
+{
+    "value": 17,
+    "tree": {"left": {"left": null, "value": 20, "right": null}, "value": 30, "right": null},
+    "TEST": 115
+}
